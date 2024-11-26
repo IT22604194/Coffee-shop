@@ -127,6 +127,12 @@ header.shadow{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+.home-text h2{
+    font-size: 2.4rem;
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 .home-text p {
     font-size: 0.938rem;
     color: var(--bg-color);
@@ -148,7 +154,7 @@ header.shadow{
     align-items: center;
     gap: 1.5rem;
 }
-.about-img img{
+.history-img img{
     border-radius: 0.5rem;
 }
 .about-text h2{
