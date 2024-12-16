@@ -2,7 +2,7 @@ const product = [
     {
         id: 0,
         Image:'images/p1.png',
-        title:'ESPRESSO',
+        title:'Arabica Coffee',
         price:25,
     },
     {
@@ -24,7 +24,7 @@ const product = [
     {
         id: 3,
         image:'images/p4.png',
-        title:'AMERICANO PURE',
+        title:'Patch Roast Coffee',
         price:30,
 
 
@@ -32,7 +32,7 @@ const product = [
     {
         id: 4,
         image:'images/p5.png',
-        title:'AMERICANO PURE',
+        title:'Sacred Grounds',
         price:40,
 
 
@@ -40,7 +40,7 @@ const product = [
     {
         id: 5,
         image:'images/p6.png',
-        title:'AMERICANO PURE',
+        title:'Presto Coffee bags',
         price:40,
 
 
@@ -58,7 +58,7 @@ document.getElementById('root').innerHTML = categories.map((item)=>
                 <img class='images' src=${image}></img>
                 </div>
                 <div class='bottom'>
-                <p>$ ${title}</p>
+                <p> ${title}</p>
                 <h2>$ ${price}.00</h2>`+
                 "<button onclick='addtocart("+(i++)+")'>Add to cart</button>"+
                 `</div>

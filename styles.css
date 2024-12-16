@@ -29,7 +29,7 @@ img {
 body {
     color:  var(--text-color);
 }
-header{
+.header-main{
     position: fixed;
     width: 100%;
     top: 0;
@@ -366,22 +366,37 @@ header.shadow{
     }
 
 }
+.header-cart{
+    
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 100px;
+    transition: 0.5s linear;
+
+}
 .cart-container{
     display: flex;
-    width: 70%;
-    margin-bottom: 30px;
+    width: 90%;
+    margin-bottom: 60px;
+    margin-top: 50px;
 }
 #root{
-    width: 60%;
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 20px;
 }
 .sidebar{
     width: 40%;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: #edeae3;
-    margin-left: 20px;
+    margin-left: 80px;
     padding: 15px;
     text-align: center;
 }
@@ -399,7 +414,7 @@ header.shadow{
     justify-content: space-between;
     border: 1px solid burlywood;
     border-radius: 5px;
-    padding: 15px;
+    padding: 8px;
 }
 .img-box{
     width:100%;
